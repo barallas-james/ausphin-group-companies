@@ -15,7 +15,7 @@ font-family: 'Tinos', serif;
 }
 
 .background{
-	background: url('../images/background.jpg');
+	/*background: url('../images/background.jpg');*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -26,7 +26,7 @@ font-family: 'Tinos', serif;
 }
 
 .background .content{
-	padding-top: 200px;
+	padding-top: 180px;
 	max-width: 1200px;
 	margin: 0 auto;
 	text-align: center;
@@ -36,7 +36,7 @@ font-family: 'Tinos', serif;
 .background .content h1{
 	font-family: 'Tinos', serif;
 	text-transform: uppercase;
-	font-size: 100px;
+	font-size: 90px;
 	color: #AB2025;
 } 
 
@@ -46,6 +46,7 @@ font-family: 'Tinos', serif;
 	background-color: #000;
 	border-radius: 5px;
 	margin: 0 auto;
+	margin-top: 30px;
 } 
 
 .background .content h2{
@@ -78,13 +79,22 @@ font-family: 'Tinos', serif;
 } 
 
 
+@media only screen and (min-width: 551px) and (max-width: 1100px){
+	.background .content{
+		max-width: 768px;
+	}
+
+
+}
+
+
 @media only screen and (max-width: 550px) and (max-height: 900px) {
 	.background .content{
 		padding-top: 100px;
 	}
 
 	.background .content h1{
-		font-size: 70px;
+		font-size: 50px;
 	} 
 
 	.background .content h2{
@@ -92,7 +102,7 @@ font-family: 'Tinos', serif;
 	} 
 
 	.background .content .company-icons .icon{
-		width: 110px;
+		width: 118px;
 	} 
 
 
